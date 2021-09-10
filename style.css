@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Ubuntu', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
+
+.bg {
+  background: url('https://www.sommertage.com/wp-content/uploads/2020/01/Churros-Sevilla-Tipps.jpg')
+    no-repeat center center/cover;
+  position: absolute;
+  top: -20px;
+  left: -20px;
+  width: calc(100vw + 30px);
+  height: 100ch;
+  z-index: -1;
+  filter: blur(0px);
+}
+
+.load-text {
+  font-size: 50px;
+  color: white;
+}
